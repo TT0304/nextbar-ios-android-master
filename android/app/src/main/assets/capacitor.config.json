@@ -1,0 +1,27 @@
+{
+  "appId": "com.app.nextfibreApp",
+  "appName": "NextBar",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 5000,
+      "launchAutoHide": true,
+      "backgroundColor": "#212121",
+      "androidSplashResourceName": "splash",
+      "spinnerColor": "#212121",
+      "showSpinner": false,
+      "splashFullScreen": false,
+      "splashImmersive": false
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "CameraUsesGeolocation": "true"
+    }
+  },
+  "server": {
+    "url": "http://198.18.0.236:8100"
+  }
+}

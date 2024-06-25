@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NextBar</string>
+    <string name="title_activity_main">NextBar</string>
+    <string name="package_name">com.app.nextfibreApp</string>
+    <string name="custom_url_scheme">com.app.nextfibreApp</string>
+</resources>

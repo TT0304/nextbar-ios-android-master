@@ -1,0 +1,41 @@
+.reports{
+    padding:10px;
+    h3{
+        background: #ddd;
+        padding: 10px 10px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    .lbl{
+        position: relative;
+        font-size: 16px;
+        padding: 8px 20px;
+        background: #efefef;
+        border-bottom: solid 1px #ddd;
+        span{
+             float:right;
+            text-align: right;
+        }
+    }
+    .lbl:nth-child(odd){
+        background:#fff;
+    }
+}
+
+.err{
+    margin:30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.searchItem{
+    --background:none;
+    --border:none;
+    a{
+        padding: 0;
+        color: #fff;
+        font-size: 27px;
+        outline: none;
+    }
+}
